@@ -8,6 +8,7 @@ guardando tudo em uma lista. No final mostre:
 3 - Uma listagem com as pessoas mais leves.
 
                                                       """
+import os
 lista_final = []
 resp = ''
 peso_maior = 0
