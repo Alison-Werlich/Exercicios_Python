@@ -9,6 +9,8 @@ guardando tudo em uma lista. No final mostre:
 
                                                       """
 import os
+
+
 lista_final = []
 resp = ''
 peso_maior = 0
@@ -24,8 +26,9 @@ while True:
         if resp == 'S' or 'N':
             break
     if resp == 'N':
+        os.system('cls')
         break
-
+print(lista_final)
 print(f'Ao todo foram cadastradas {len(lista_final)} pessoas.')
 
 for pessoa in lista_final:
