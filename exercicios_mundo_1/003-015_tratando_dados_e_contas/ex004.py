@@ -1,0 +1,5 @@
+x = input('Digite algo: ')
+print(type(x))
+print('É alfanumerico? ', x.isalnum())
+print('É alfabetico? ', x.isalpha())
+print('É numerico? ', x.isnumeric())
